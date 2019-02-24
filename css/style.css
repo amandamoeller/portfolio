@@ -1,0 +1,559 @@
+/*-------------------GLOBAL-------------------*/
+
+Html,
+body {
+    background-color: #d3896e;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+.pink {
+    color: #693724;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding: 2%;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 110%;
+    line-height: 2.5;
+}
+
+/*
+nav a {
+    border-bottom: 2px solid transparent;
+}
+
+nav a.active {
+    border-bottom: 2px solid #693724;
+}
+
+*/
+
+.text {
+    z-index: 2;
+    position: absolute;
+    line-height: 1.7;
+    text-align: justify;
+
+}
+
+
+/*----------INDEX-------*/
+
+.box {
+    width: 60%;
+    height: auto;
+    margin-top: 20%;
+    z-index: 1;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 40%;
+
+}
+
+h1 {
+    z-index: 2;
+    position: absolute;
+    margin-top: 117%;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+h1:after {
+    background: none repeat scroll 0 0 #693724;
+    bottom: -4px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 35px;
+}
+
+
+
+.por-text > .text {
+    margin-top: 135%;
+    margin-left: 30%;
+    width: 65%;
+}
+
+.year {
+    z-index: 2;
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 17%;
+    width: 5%;
+
+}
+
+
+#eye {
+    width: 50%;
+    z-index: 3;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 22%;
+}
+
+.por-con > img {
+    width: 25%;
+    position: absolute;
+}
+
+.por-first {
+    margin-top: 250%;
+    margin-left: 15%;
+}
+
+.por-sec {
+    margin-left: 25%;
+    margin-top: 260%;
+
+}
+
+.por-third {
+    margin-left: 35%;
+    margin-top: 270%;
+}
+
+#por-light {
+    width: 20%;
+    margin-left: 60%;
+    margin-top: 310%;
+}
+
+
+/*----------ABOUT-------*/
+
+.about-text > .text {
+    width: 70%;
+    margin-top: 155%;
+    margin-left: 25%;
+}
+
+.about-text > h1 {
+    margin-top: 140%;
+}
+
+
+
+.about-con > img {
+    width: 50%;
+    position: absolute;
+}
+
+#about-por {
+    width: 23%;
+    margin-top: 75%;
+    margin-left: 64%;
+    z-index: 3;
+}
+
+#profile {
+    margin-top: 37%;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+#overlay {
+    margin-top: 50%;
+    margin-left: 10%;
+    z-index: 3;
+}
+
+#frame {
+    margin-top: 33%;
+    margin-left: 23%;
+    z-index: 2;
+}
+
+#name {
+    color: #e5a791;
+    font-size: 150%;
+    position: absolute;
+    z-index: 3;
+    margin-top: 33%;
+    margin-left: 2%;
+}
+
+#signature {
+    position: absolute;
+    width: 60%;
+    margin-top: 270%;
+    margin-left: 19%;
+    margin-bottom: 10%;
+}
+
+
+/*----------CONTACT-------*/
+
+
+.contact-text > .text {
+    width: 70%;
+    margin-top: 70%;
+    margin-left: 25%;
+}
+
+.contact-text > h1 {
+    margin-top: 45%;
+}
+
+
+
+/*-------------------IPAD-------------------*/
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 250%;
+    }
+
+    nav li a {
+        font-size: 160%;
+    }
+
+    /*----------INDEX-------*/
+    .box {
+        width: 400px;
+        height: 400px;
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+
+    #eye {
+        width: 37%;
+        margin-top: 13%;
+        margin-left: 17%;
+    }
+
+    .year {
+        width: 4%;
+        margin-top: 62%;
+        margin-left: 10%;
+    }
+
+    .por-text > p {
+        font-size: 140%;
+    }
+
+    .por-text > h1 {
+        margin-top: 95%;
+    }
+
+    .por-text > .text {
+        margin-top: 112%;
+    }
+
+    .por-first {
+        margin-top: 175%;
+        margin-left: 15%;
+    }
+
+    .por-sec {
+        margin-left: 25%;
+        margin-top: 185%;
+
+    }
+
+    .por-third {
+        margin-left: 35%;
+        margin-top: 195%;
+    }
+
+    #por-light {
+        width: 20%;
+        margin-left: 60%;
+        margin-top: 235%;
+    }
+
+
+    /*----------ABOUT-------*/
+    #profile {
+        margin-top: 23%;
+    }
+
+    #overlay {
+        margin-top: 37%;
+    }
+
+    #frame {
+        margin-top: 20%;
+    }
+
+    #name {
+        font-size: 250%;
+        margin-top: 20%;
+        margin-left: 3%;
+    }
+
+    #about-por {
+        width: 20%;
+        margin-top: 66%;
+        margin-left: 66%;
+    }
+
+
+    .text {
+        font-size: 140%;
+    }
+
+    .about-text > h1 {
+        margin-top: 125%;
+    }
+
+    .about-text > .text {
+        margin-top: 140%;
+    }
+
+    #signature {
+        width: 50%;
+        margin-top: 210%;
+        margin-left: 50%;
+        margin-bottom: 10%
+    }
+}
+
+
+
+/*----------CONTACT-------*/
+
+.contact-text > h1 {
+    margin-top: 70%;
+}
+
+.contact-text > .text {
+    margin-top: 85%;
+}
+
+
+
+/*-------------------IPAD PRO-------------------*/
+
+@media only screen and (min-width: 1024px) {
+
+    .text {
+        font-size: 150%;
+    }
+
+
+    nav li a {
+        font-size: 200%;
+    }
+
+    /*----------INDEX-------*/
+    .box {
+        width: 60%;
+        height: auto;
+    }
+
+    .year {
+        width: 4%;
+        margin-top: 70%;
+    }
+
+    #eye {
+        width: 45%;
+        margin-top: 10%;
+    }
+
+    .por-text > .text {
+        margin-top: 112%;
+    }
+
+
+    .por-text > h1 {
+        margin-top: 100%;
+    }
+
+
+    .por-con > img {
+        width: 20%;
+    }
+
+    .por-first {
+        margin-top: 155%;
+        margin-left: 15%;
+    }
+
+    .por-sec {
+        margin-left: 25%;
+        margin-top: 165%;
+
+    }
+
+    .por-third {
+        margin-left: 35%;
+        margin-top: 175%;
+    }
+
+    #por-light {
+        width: 20%;
+        margin-left: 57%;
+        margin-top: 205%;
+    }
+
+
+/*----------CONTACT-------*/
+
+.contact-text > h1 {
+    margin-top: 70%;
+    margin-left: 10%;
+}
+
+.contact-text > .text {
+    margin-top: 85%;
+}
+
+}
+
+
+/*-------------------DESKTOP-------------------*/
+
+@media only screen and (min-width: 1199px) {
+ 
+        /*----------INDEX-------*/
+    
+    .box {
+        width: 25%;
+        height: auto;
+        margin-top: 12%;
+        margin-left: 7%;
+    }
+    
+    #eye {
+        width: 18%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    
+    .year {
+        margin-top: 31%;
+        margin-left: 7%;
+        width: 1.5%;
+    }
+    
+    .por-text > h1 {
+        margin-top: 27%;
+        margin-left: 26%;
+        font-size: 150%;
+    }
+    
+    .por-text > .text {
+        margin-top: 32%;
+        font-size: 100%;
+        width: 35%;
+    }
+    
+    nav li a {
+        font-size: 115%; 
+    }
+    
+        .por-con > img {
+        width: 11%;
+    }
+
+    .por-first {
+        margin-top: 5%;
+        margin-left: 64%;
+    }
+
+    .por-sec {
+        margin-left: 69%;
+        margin-top: 10%;
+
+    }
+
+    .por-third {
+        margin-left: 74%;
+        margin-top: 15%;
+    }
+
+    #por-light {
+        width: 9%;
+        margin-left: 85%;
+        margin-top: 32%;
+    }
+    
+    
+        /*----------ABOUT-------*/
+    .about-con > img {
+        width: 25%;
+    }
+    
+    #profile {
+        margin-top: 7%;
+        margin-left: 10%
+    }
+
+    #overlay {
+        margin-top: 11%;
+        margin-left: 5%;
+    }
+
+    #frame {
+        margin-top: 4%;
+        margin-left: 12%
+    }
+
+    #name {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    #about-por {
+        width: 10%;
+        margin-top: 28%;
+        margin-left: 33%;
+    }
+
+   .about-text > .text {
+        font-size: 100%;
+        width: 35%;
+       margin-top: 20%;
+       margin-left: 53%;
+    }
+  
+    .about-text > h1 {
+        margin-top: 13%;
+        margin-left: 45%;
+        font-size: 150%;
+    }
+
+
+    #signature {
+        width: 20%;
+        margin-top: 40%;
+        margin-left: 77%;
+        margin-bottom: 0%;
+    }
+
+    
+    /*----------CONTACT-------*/
+
+.contact-text > h1 {
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 150%;
+}
+
+.contact-text > .text {
+    margin-top: 27%;
+    margin-left: 43%;
+    font-size: 100%;
+    width: 35%;
+    }
+    
+}
